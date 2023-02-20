@@ -31,7 +31,7 @@
           .map(pair => pair.split("=").map(decodeURIComponent))
       );
       const values = {
-        markdown: "README.md",
+        path: "don-patterson/slides/gh-pages/README.md",
         title: "Slides",
         hsep: String.raw`^\*\*\*\n\*\*\*\n`,
         vsep: String.raw`^\*\*\*\n`,
@@ -39,9 +39,10 @@
         height: 1000,
         ...queryParams,
       };
+      const markdown = `https://raw.githubusercontent.com/${values.path}`;
 
       const section = document.createElement("section");
-      section.setAttribute("data-markdown", values.markdown);
+      section.setAttribute("data-markdown", markdown);
       section.setAttribute("data-separator", values.hsep);
       section.setAttribute("data-separator-vertical", values.vsep);
 
