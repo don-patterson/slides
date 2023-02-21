@@ -9,17 +9,21 @@ https://don-patterson.github.io/slides?path=don-patterson/slides/gh-pages/README
 
 ***
 
+<!-- not really .sh but it doesn't get markdown highlighting right -->
 # Basic Syntax
-  ```markdown
+  ```sh
   # Section 1.0: New vertical slides
-  Vertical slides (subsections) are separated by a horizontal
-  rule on its own line (i.e. `^***\n`).
+  Vertical slides (subsections) are separated by a horizontal rule on its own line (i.e. `^***\n`).
+
   ***
+
   # Section 1.1
   This slide would appear below the first one. Two horizontal rules back to back
   will separate sections, and cause a new slide on the right.
+
   ***
   ***
+
   # Section 2
   This would appear on the right, i.e. second column, first row.
   ```
