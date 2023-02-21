@@ -12,7 +12,7 @@ https://don-patterson.github.io/slides?path=don-patterson/slides/gh-pages/README
 To start a new vertical slide use a horizontal rule `***` on its own line,
 and to start a new horizontal slide use two horizontal rules. i.e.
 
-  ```md
+  ```markdown
   # Slide
   section 1.1
 
