@@ -9,28 +9,22 @@ https://don-patterson.github.io/slides?path=don-patterson/slides/gh-pages/README
 
 ***
 
-To start a new vertical slide use a horizontal rule `***` on its own line,
-and to start a new horizontal slide use two horizontal rules. i.e.
-
+# Basic Syntax
   ```markdown
-  # Slide
-  section 1.1
-
+  # Section 1.0: New vertical slides
+  Vertical slides (subsections) are separated by a horizontal
+  rule on its own line (i.e. `^***\n`).
   ***
-
-  # New slide below
-  section 1.2
-
+  # Section 1.1
+  This slide would appear below the first one. Two horizontal rules back to back
+  will separate sections, and cause a new slide on the right.
   ***
   ***
-
-  # New slide to the right
-  section 2.1
+  # Section 2
+  This would appear on the right, i.e. second column, first row.
   ```
-<!-- .element class="r-stretch" -->
+For complete syntax documentation, check out https://revealjs.com/markdown/
 
 ***
-
-For complete syntax documentation, check out https://revealjs.com/markdown/
 
 Enjoy! Issues, PRs, comments all welcome on [GitHub](https://github.com/don-patterson/slides/)!
